@@ -1,6 +1,6 @@
 import re
 from .base import Base
-from deoplete.util import debug
+# from deoplete.util import debug
 
 
 class Source(Base):
@@ -20,7 +20,6 @@ class Source(Base):
         return m.start() if m else -1
 
     def gather_candidates(self, context):
-        debug(self.vim, context['input'])
         m = re.search(r"{(?P<macro>\w*)(?:[:|](?P<param>\w*)(?:=(?P<value>\w*))?)*$", context['input'])
 
         if m:
