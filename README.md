@@ -15,3 +15,8 @@ deoplete.nvim source for confluencewiki.
 Syntax fIle (recommended)
 
 * https://www.vim.org/scripts/script.php?script_id=1994
+
+## References
+
+- [Confluence Wiki Markup - Atlassian Documentation](https://confluence.atlassian.com/confcloud/confluence-wiki-markup-938044804.html)
+- [Macros - Atlassian Documentation](https://confluence.atlassian.com/doc/macros-139387.html)
